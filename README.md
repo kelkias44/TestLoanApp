@@ -14,8 +14,8 @@ Installation
 To get started with LoanApp, follow these steps:
 
 Clone the repository:
+git clone https://github.com/yourusername/LoanApp.git
 
-bash
 Copy code
 git clone https://github.com/yourusername/LoanApp.git
 Open the project in Android Studio:
