@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KifyaLoanApp</string>
+    <string name="login">Login</string>
+    <string name="loginDescription">Login using username and password</string>
+    <string name="registerDescription">Register to have an account</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="dontHaveAnAccount">Don\'t have an account?</string>
+    <string name="alreadyHadAnAccount">Already had an account?</string>
+    <string name="register">Register</string>
+    <string name="loanHistory">Loan Histiory</string>
+    <string name="loanStatus">Loan Status</string>
+    <string name="makeRepayment">Make Repayment</string>
+    <string name="applyForLoan">Apply For Loan</string>
+    <string name="amount">Amount</string>
+    <string name="term">Term</string>
+    <string name="loanDueDate">Term</string>
+    <string name="endDate">End Date</string>
+</resources>
