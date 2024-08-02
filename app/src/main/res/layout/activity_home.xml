@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.HomeActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/apply_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/applyForLoan"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/design_default_color_secondary"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/make_repayment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/makeRepayment"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/design_default_color_secondary"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loan_status_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/loanStatus"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/design_default_color_secondary"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loan_history_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/loanHistory"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/design_default_color_secondary"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.SignupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/registerDescription"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:hint="@string/userName"
+        android:background="@drawable/edittext_backgound"
+        android:inputType="text"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:hint="@string/email"
+        android:background="@drawable/edittext_backgound"
+        android:inputType="text"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:hint="@string/password"
+        android:background="@drawable/edittext_backgound"
+        android:inputType="textPassword"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/register"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="@color/design_default_color_secondary"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:text="@string/alreadyHadAnAccount"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/login_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            android:text="@string/login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_secondary"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
